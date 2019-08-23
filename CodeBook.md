@@ -22,7 +22,7 @@ This script will check if any need package is not install and tries to install i
 * activity_y : bind of df_y_train and df_y_test
 
 ## 3. Extract relevant data
-
+Filter and create a vector of only mean and standard deviation
 * dataSet_x : at the end of this step, dataSet will only contain mean and std variables
 
 ## 4. Changing Column label of dataSet
@@ -32,8 +32,8 @@ Combine test data and train data of subject and activity, then give descriptive 
 * final_dataSet : bind of subject_s,  activity_y and dataSet_x
 
 ## 6. Rename ID to activity name
-Group the activity column of dataSet as "act_group", then rename each levels with 2nd column of activity_levels. Finally apply the renamed "act_group" to dataSet's activity column.
-* act_group : factored activity column of dataSet 
+Group the activity column of dataSet as "act_group", then rename each levels with 2nd column of activity_levels. 
+* final_dataSet : factored activity name column of dataSet 
 
 ## 7. Output tidy data
 In this part, dataSet is melted to create tidy data. Finally output the data as "tidy_data.csv"

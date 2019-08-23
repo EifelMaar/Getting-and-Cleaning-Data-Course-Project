@@ -2,7 +2,7 @@ Code Book
 ==========
 
 ## 1. Check for dependencies (packages) and install them if necessary
-This script will check if the data file is present in your working directory. (If not, will download and unzip the file)
+This script will check if any need package is not install and tries to install if necessary
 
 ## 2. Loading/Reading the data files
 
